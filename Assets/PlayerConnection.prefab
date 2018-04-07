@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4985900745316650}
   - component: {fileID: 114867663422956466}
   - component: {fileID: 114424952140024290}
+  - component: {fileID: 114880716579507160}
   m_Layer: 0
   m_Name: PlayerConnection
   m_TagString: Untagged
@@ -87,3 +88,32 @@ MonoBehaviour:
     i15: 127
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
+--- !u!114 &114880716579507160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1790500011538736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a066ddbf125f9546bcadc947418566b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tokens:
+    _tokens: []
+  _activationFaderSettings:
+    _volume: 1
+    _fadeInTicks: 0
+    _fadeOutTicks: 1500000
+  _triggerFaderSettings:
+    _volume: 1
+    _fadeInTicks: 7500000
+    _fadeOutTicks: 11500000
+  _broadcastPosition: 1
+  _channelType: 0
+  _inputName: 
+  _mode: 1
+  _playerId: 
+  _useTrigger: 0
+  _roomName: Global
+  _priority: -2
